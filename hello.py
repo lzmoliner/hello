@@ -9,4 +9,4 @@ def __main__():
     greeting()
    
 if __name__ == "__main__":
-    main()
+    greeting()
