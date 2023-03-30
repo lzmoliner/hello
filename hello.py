@@ -1,4 +1,7 @@
 def hello(name):
-    print(f"Hello, {name}!")
+    print(f"Hello, {name}! Nice to meet you.")
 
-hello('leonel')
+def greeting():
+    name = input('Sorry, what is your name? ')
+    hello(name)
+
