@@ -5,8 +5,8 @@ def greeting():
     name = input('Sorry, what is your name? ')
     hello(name)
 
-def __main__():
+def main():
     greeting()
    
 if __name__ == "__main__":
-    greeting()
+    main()
